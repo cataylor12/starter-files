@@ -7,3 +7,24 @@
 body {
     font-family: "Work Sans", sans-serif;
 }
+
+.gallery {
+    background-color: var(--black);
+    border-radius: 8px;
+    padding: 1rem 1rem 5rem;
+    position: relative;
+
+}
+.gallery div {
+    border: 2px solid white;
+    width: 60%;
+
+}
+
+.gallery div:first-of-type {
+    position: absolute;
+    z-index: 10;
+    right: 1rem;
+    /* bottom: 1rem; */
+    top: 3rem;
+}
